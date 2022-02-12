@@ -10,7 +10,14 @@ body {
     text-align: center;
     font-family: 'Allerta', sans-serif;
     line-height: 1.5;
-    color: rgb(66, 66, 66);
+    color: rgb(94, 94, 94);
+}
+
+h4 {
+    color: rgb(206, 206, 206);
+    letter-spacing: 15px;
+    font-size: 1.5rem;
+    margin: 60px
 }
 
 /*TODO Top Container */
@@ -40,6 +47,7 @@ h1 {
 #cloud2 {
     width: 10vw;
     position: absolute;
+    top: 30vw;
     right: 20vw;
 }
 
@@ -53,12 +61,12 @@ h1 {
 #lighthouse {
     position: relative;
     right: 34vw;
-    width: 30vw;
+    width: 37vw;
 }
 
 #aircraft {
     position: absolute;
-    width: 15vw;
+    width: 25vw;
     top: 10vh;
     right: 5vw;
 }
@@ -67,6 +75,7 @@ h1 {
 
 h2 {
     color: #6C63FF;
+    margin-bottom: 0;
 }
 
 .middle-container {
@@ -85,13 +94,13 @@ h2 {
 }
 
 .skill-row {
-    width: 60%;
-    margin: 60px auto 100px auto;
+    width: 50%;
+    margin: 30px auto 100px auto;
     text-align: left;
 }
 
 .skill-row>h3 {
-    padding-top: 30px;
+    padding-top: 20px;
     color: #637FFF;
 }
 
@@ -108,13 +117,17 @@ h2 {
 }
 
 .contact-me {
-    width: 60%;
+    width: 50%;
     margin: auto;
 }
 
 .contact-me>h3 {
     color: #637FFF;
     margin-top: 30px;
+}
+
+.contact-me>p {
+    margin-bottom: 40px;
 }
 
 .btn {
@@ -128,6 +141,7 @@ h2 {
 /*TODO Bottom Container */
 
 .bottom-container {
+    margin-top: 30px;
     padding-top: 50px;
     padding-bottom: 10px;
     background-color: #9CB1FF;
@@ -138,11 +152,21 @@ h2 {
     margin-bottom: 0;
     font-size: 9pt;
     color: rgb(241, 238, 234);
-
 }
 
 .bottom-container>a {
     text-decoration: none;
     margin: 30px;
     color: rgb(241, 238, 234);
+}
+
+span {
+    text-decoration: underline
+}
+
+
+@media screen and (max-width: 768px) {
+    .skill-row {
+        text-align: center;
+    }
 }
