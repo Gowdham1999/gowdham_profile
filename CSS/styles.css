@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta&family=Montez&display=swap');
+
+html,
+body {
+    margin: 0;
+    background-color: #f8faff;
+}
+
+body {
+    text-align: center;
+    font-family: 'Allerta', sans-serif;
+    line-height: 1.5;
+    color: rgb(66, 66, 66);
+}
+
+/*TODO Top Container */
+
+h1 {
+    margin: 0 auto;
+    width: 80vw;
+    font-size: 6rem;
+    font-family: 'Montez', cursive;
+    color: rgb(241, 238, 234);
+    text-align: center;
+}
+
+#role {
+    font-family: 'Allerta', sans-serif;
+    color: rgb(241, 238, 234);
+    text-align: center;
+    font-size: 1rem;
+}
+
+#cloud1 {
+    width: 10vw;
+    position: relative;
+    right: 30vw
+}
+
+#cloud2 {
+    width: 10vw;
+    position: absolute;
+    right: 20vw;
+}
+
+.top-container {
+    padding-top: 30px;
+    height: fit-content;
+    max-width: 100%;
+    background-color: #9CB1FF;
+}
+
+#lighthouse {
+    position: relative;
+    right: 34vw;
+    width: 30vw;
+}
+
+#aircraft {
+    position: absolute;
+    width: 15vw;
+    top: 10vh;
+    right: 5vw;
+}
+
+/*TODO Middle Container */
+
+h2 {
+    color: #6C63FF;
+}
+
+.middle-container {
+    /* padding: 20px; */
+    margin-top: 30px;
+}
+
+/* #profileImage {
+    width: 15vw
+} */
+
+.profile>p {
+    display: inline-block;
+    width: 45vw;
+    margin-bottom: 40px;
+}
+
+.skill-row {
+    width: 60%;
+    margin: 60px auto 100px auto;
+    text-align: left;
+}
+
+.skill-row>h3 {
+    padding-top: 30px;
+    color: #637FFF;
+}
+
+.skill-row>.skill1 {
+    width: 15rem;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-row>.skill2 {
+    width: 13rem;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-me {
+    width: 60%;
+    margin: auto;
+}
+
+.contact-me>h3 {
+    color: #637FFF;
+    margin-top: 30px;
+}
+
+.btn {
+    color: rgb(241, 238, 234);
+    text-decoration: none;
+    background-color: #637FFF;
+    padding: 12px 17px;
+    border-radius: 3px;
+}
+
+/*TODO Bottom Container */
+
+.bottom-container {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    background-color: #9CB1FF;
+}
+
+.bottom-container>p {
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-size: 9pt;
+    color: rgb(241, 238, 234);
+
+}
+
+.bottom-container>a {
+    text-decoration: none;
+    margin: 30px;
+    color: rgb(241, 238, 234);
+}
