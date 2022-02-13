@@ -117,7 +117,7 @@ h2 {
 }
 
 .contact-me {
-    width: 60%;
+    width: 80%;
     margin: auto;
 }
 
@@ -134,13 +134,14 @@ h2 {
     color: rgb(241, 238, 234);
     text-decoration: none;
     background-color: #637FFF;
-    padding: 12px 17px;
+    padding: 8px 15px 8px 10px;
     border-radius: 3px;
 }
 
 /*TODO Bottom Container */
 
 .bottom-container {
+    width: 100%;
     margin-top: 30px;
     padding-top: 50px;
     padding-bottom: 10px;
